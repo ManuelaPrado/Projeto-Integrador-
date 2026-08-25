@@ -106,7 +106,7 @@ A primeira etapa registrada no projeto corresponde à **Sprint 1**, com a defini
 **Projeto acadêmico — Pesquisa e Inovação III**
 
 > Ketellyn Santos
-> LUCAS CIRIACO
+> Lucas Ciriaco
 > Lucas Máximo
 > Manuela Garcia
 > Pablo Cordeiro
