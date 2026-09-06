@@ -1,0 +1,159 @@
+.lista {
+  min-width: 0;
+}
+
+.cabecalhoLista {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: end;
+  margin-bottom: 20px;
+}
+
+.cabecalhoLista h2,
+.cabecalhoLista p {
+  margin: 4px 0 0;
+}
+
+.cabecalhoLista p {
+  color: #77716a;
+  font-size: 13px;
+}
+
+.atualizar {
+  margin: 10px;
+  padding: 11px 15px;
+  border: 1px solid #000000;
+  background-color: #47006d;
+  color: #ffffff;
+  border-radius: 9px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.atualizar:hover{
+  opacity: .80;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  gap: 16px;
+  padding: 15px;
+  border: 1px solid #ddd8cf;
+  border-radius: 16px;
+  background: #fffdf9;
+}
+
+.capa {
+  flex: 0 0 72px;
+  width: 72px;
+  height: 72px;
+  display: grid;
+  place-items: center;
+  border-radius: 11px;
+  background: #171717;
+  color: white;
+  font-size: 30px;
+}
+
+.info {
+  min-width: 0;
+  padding-right: 30px;
+}
+
+.info h3,
+.info strong,
+.info p {
+  margin: 0;
+}
+
+.info h3 {
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.info strong {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.info p {
+  margin-top: 4px;
+  color: #77716a;
+  font-size: 13px;
+}
+
+.detalhes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 10px;
+}
+
+.detalhes span {
+  padding: 4px 8px;
+  border-radius: 20px;
+  background: #eee9e0;
+  font-size: 11px;
+}
+
+.excluir {
+  position: absolute;
+  right: 14px;
+  top: 13px;
+  border: 0;
+  background: transparent;
+  color: #77716a;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.vazio {
+  padding: 55px 20px;
+  text-align: center;
+  border: 1px dashed #cfc8bd;
+  border-radius: 16px;
+  color: #77716a;
+}
+
+.vazio span {
+  display: block;
+  font-size: 35px;
+  color: #171717;
+}
+
+.vazio p {
+  margin: 10px 0 4px;
+  color: #171717;
+  font-weight: 800;
+}
+
+.vazio small {
+  font-size: 12px;
+}
+
+.sucesso,
+.erro {
+  padding: 10px 12px;
+  border-radius: 9px;
+  font-size: 13px;
+}
+
+.sucesso {
+  background: #e5f4e8;
+}
+
+.erro {
+  background: #f9e4e2;
+}
+
