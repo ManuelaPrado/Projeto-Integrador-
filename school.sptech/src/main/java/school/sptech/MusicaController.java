@@ -68,13 +68,11 @@ public class MusicaController {
     @GetMapping
     public ResponseEntity<List<Musica>> listar(
             @RequestParam(required = false) String titulo,
-            @RequestParam(required = false) String artista,
-            
+            @RequestParam(required = false) String artista
     ) {
 
         StringBuilder sql = new StringBuilder(
-                "SELECT id, titulo, artista, album, genero, duracao, " +
-                "ano_lancamento AS anoLancamento FROM musica WHERE 1 = 1"
+                "SELECT id, titulo, artista, album, genero, duracao, ano_lancamento AS anoLancamento, comentario FROM musica WHERE 1 = 1"
         );
 
         List<Object> parametros = new ArrayList<>();

@@ -67,11 +67,11 @@ public class Musica {
         this.anoLancamento = anoLancamento;
     }
 
-      public Integer getComentario() {
+    public String getComentario() {
         return comentario;
     }
 
-    public void setComentario(Integer comentario) {
-        this.comentario = anoLancamento;
+    public void setComentario(String comentario) {
+        this.comentario = comentario;
     }
 }
